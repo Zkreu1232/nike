@@ -1,0 +1,147 @@
+.favorite {
+	margin-top: 250px;
+
+	&__tittle {
+		font-size: 64px;
+		text-transform: uppercase;
+		color: #FFFFFF;
+
+		&-red {
+			color: #BA0000;
+		}
+	}
+
+	&__grid {
+		margin-top: 110px;
+		margin-left: 175px;
+		display: grid;
+		grid-template-columns: 313px 313px 313px;
+		grid-template-rows: 300px;
+		grid-gap: 80px;
+
+		&-card {
+			position: relative;
+			display: flex;
+			flex-direction: column;
+
+			&-tittle {
+				font-family: 'futura md bt';
+				font-style: italic;
+				font-size: 20px;
+				line-height: 24px;
+				text-align: right;
+				color: #FFFFFF;
+			}
+
+			&-price {
+				font-family: 'Futura XBlkCnIt BT';
+				font-style: italic;
+				font-weight: 400;
+				font-size: 20px;
+				line-height: 50px;
+				text-align: right;
+				color: #BA0000;
+			}
+
+			&-gradient {
+				width: 300px;
+				height: 300px;
+				background: conic-gradient(from 180deg at 50% 50%, #FF0000 0deg, rgba(255, 0, 0, 0) 360deg);
+				background-blend-mode: luminosity;
+				filter: blur(125px);
+				border-radius: 100%;
+			}
+
+			&-boot.one {
+				position: absolute;
+				top: 100px;
+				width: 240px;
+				height: 145px;
+				background-image: url("../images/favorite-grid-card-boot-one.png");
+			}
+
+			&-boot.two {
+				position: absolute;
+				top: 40px;
+				width: 300px;
+				height: 250px;
+				background-image: url("../images/favorite-grid-card-boot-two.png");
+			}
+
+			&-boot.three {
+				position: absolute;
+				top: 50px;
+				width: 300px;
+				height: 230px;
+				background-image: url("../images/favorite-grid-card-boot-three.png");
+			}
+		}
+	}
+
+	&-logos {
+		margin-top: 300px;
+		display: flex;
+		justify-content: space-between;
+		height: 100px;
+		width: 100%;
+		column-gap: 60px;
+		align-items: center;
+
+
+		&-one {
+			background-image: url("../images/logo-1.png");
+			width: 110px;
+			height: 67px;
+			background-repeat: no-repeat;
+		}
+
+		&-two {
+			background-image: url('../images/logo-2.png');
+			width: 116px;
+			height: 52px;
+			background-repeat: no-repeat;
+		}
+
+		&-three {
+			background-image: url('../images/logo-3.png');
+			width: 112px;
+			height: 52px;
+			background-repeat: no-repeat;
+		}
+
+		&-four {
+			background-image: url('../images/logo-4.png');
+			width: 120px;
+			height: 68px;
+			background-repeat: no-repeat;
+		}
+
+		&-five {
+			background-image: url('../images/logo-5.png');
+			width: 124px;
+			height: 60px;
+			background-repeat: no-repeat;
+		}
+
+		&-six {
+			background-image: url('../images/logo-6.png');
+			width: 130px;
+			height: 40px;
+			background-repeat: no-repeat;
+		}
+
+		&-seven {
+			background-image: url('../images/logo-7.png');
+			width: 100px;
+			height: 100px;
+			background-repeat: no-repeat;
+		}
+
+		&-eight {
+			background-image: url('../images/logo-8.png');
+			width: 115px;
+			height: 60px;
+			background-repeat: no-repeat;
+		}
+	}
+}

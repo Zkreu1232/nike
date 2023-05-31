@@ -1,0 +1,71 @@
+.handcrafted {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	&__tittle {
+		position: relative;
+		margin-top: 300px;
+		font-size: 64px;
+		line-height: 150px;
+		text-align: center;
+		color: #FFFFFF;
+
+		&-effect {
+			position: absolute;
+			width: 340px;
+			height: 60px;
+			left: 500px;
+			top: 166px;
+			background: #BA0000;
+			mix-blend-mode: multiply;
+			transform: rotate(11.2deg);
+		}
+
+		&-image-one {
+			position: absolute;
+			width: 100px;
+			height: 120px;
+			left: 130px;
+			top: 313px;
+		}
+
+		&-image-two {
+			position: absolute;
+			width: 100px;
+			height: 120px;
+			left: 800px;
+			top: 38px;
+		}
+	}
+
+	&__subtitle {
+		margin-top: 80px;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 48px;
+		text-align: center;
+		color: #FFFFFF;
+	}
+
+	&__buttons {
+		margin-top: 80px;
+		display: flex;
+		justify-content: center;
+	}
+
+	&__button {
+		cursor: pointer;
+		width: 131px;
+		height: 36px;
+		border: 1px solid #FFFFFF;
+		border-radius: 36px;
+		background: transparent;
+		font-size: 12px;
+		line-height: 0px;
+		color: #FFFFFF;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}

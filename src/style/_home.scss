@@ -1,0 +1,151 @@
+.home {
+	position: relative;
+	padding: 258px 0 0px;
+	background: black url("../images/home-background.png") center/cover no-repeat;
+
+	&__block {
+		background: url("../images/Background Text.png") left bottom/cover no-repeat;
+		display: flex;
+		column-gap: 94px;
+		justify-content: center;
+
+		&-color {
+			position: absolute;
+			left: 0;
+			z-index: 1;
+
+			& circle {
+				cursor: pointer;
+			}
+		}
+	}
+
+	&__tittle {
+		font-style: italic;
+		font-weight: 700;
+		font-size: 48px;
+		line-height: 48px;
+		letter-spacing: 0.16em;
+		color: #FFFFFF;
+		padding-top: 150px;
+	}
+
+	&__info {
+		width: 492px;
+		align-items: center;
+	}
+
+	&__image {
+		max-width: 50%;
+		position: relative;
+	}
+
+	&__rotate {
+		position: relative;
+		left: 75px;
+	}
+
+	&__details {
+		margin: 32px 0;
+		display: flex;
+		justify-content: space-between;
+		padding-right: 50px;
+	}
+
+	&__price {
+
+		font-size: 36px;
+		color: #FFFFFF;
+	}
+
+	&__size {
+		font-size: 16px;
+		color: #FFFFFF;
+		margin-right: 19px;
+	}
+
+	&__details-right {
+		display: flex;
+		align-items: center;
+		column-gap: 45px;
+	}
+
+	&__size-select {
+		background: transparent;
+		border: none;
+		outline: none;
+		font-size: 36px;
+		line-height: 43px;
+		color: #FFFFFF;
+
+		& option {
+			color: black;
+		}
+	}
+
+	&__button {
+		cursor: pointer;
+		width: 131px;
+		height: 36px;
+		border: 1px solid #FFFFFF;
+		border-radius: 36px;
+		background: transparent;
+		font-size: 12px;
+		line-height: 0px;
+		color: #FFFFFF;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	&__swiper {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__arrows {
+		display: flex;
+		column-gap: 44px;
+		align-items: center;
+		margin-right: 0px;
+	}
+
+	&__arrow {
+		display: flex;
+		column-gap: 20px;
+		align-items: center;
+		font-size: 16px;
+		text-transform: capitalize;
+		color: #FFFFFF;
+		margin-top: 150px;
+		cursor: pointer;
+	}
+
+	&__row {
+		margin-top: 200px;
+		width: 1040px;
+	}
+
+	&__card-boot {
+		border: 2px solid #FFFFFF;
+		border-bottom: none;
+		padding: 134px 138px 61px 32px;
+		position: relative;
+	}
+
+	&__card-image {
+		position: absolute;
+		width: 230px;
+		left: 30px;
+		bottom: 101px;
+	}
+
+	&__card-tittle {
+		font-weight: 400;
+		font-size: 24px;
+		line-height: 0px;
+		text-transform: uppercase;
+		color: #FFFFFF;
+		white-space: nowrap;
+	}
+}

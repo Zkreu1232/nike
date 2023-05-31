@@ -1,0 +1,61 @@
+.visionaries__box {
+	margin-top: 277px;
+	display: flex;
+	justify-content: space-between;
+
+	&-left {
+		background-image: url('../images/visionaries__box-right-image.png');
+		width: 416px;
+		height: 416px;
+	}
+
+	&-right {
+		&-tittle {
+			font-family: 'Futura Md BT';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 48px;
+			line-height: 58px;
+			text-transform: uppercase;
+			color: #FFFFFF;
+
+			&-red {
+				font-family: 'Futura Md BT';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 48px;
+				line-height: 58px;
+				/* identical to box height */
+
+				text-transform: uppercase;
+
+				color: #BA0000
+			}
+		}
+
+		&-subtitle {
+			margin-top: 28px;
+			font-size: 16px;
+			line-height: 19px;
+			text-transform: capitalize;
+			color: #FFFFFF;
+
+			&-bold {
+				font-family: 'Futura md bt';
+			}
+		}
+	}
+
+	&-right-button {
+		margin-top: 32px;
+		display: flex;
+		padding: 1px 14px 1px 14px;
+		align-items: center;
+		border: 1px solid #FFFFFF;
+		border-radius: 36px;
+		background: transparent;
+		font-size: 12px;
+		line-height: 0px;
+		color: #FFFFFF;
+	}
+}

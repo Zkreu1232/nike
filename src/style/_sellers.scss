@@ -1,0 +1,67 @@
+.sellers {
+	display: flex;
+	justify-content: center;
+	margin-top: 231px;
+
+	&__boot {
+		position: absolute;
+		left: 0px;
+		top: 2000px;
+	}
+
+	&__tittle {
+		position: relative;
+		font-size: 64px;
+		line-height: 64px;
+		text-align: center;
+		color: #FFFFFF;
+	}
+
+	&__effect {
+		position: absolute;
+		width: 500px;
+		height: 70px;
+		left: 633px;
+		top: 10px;
+		background: #BA0000;
+		mix-blend-mode: multiply;
+		transform: rotate(11.2deg);
+	}
+
+	&__grid {
+		margin-top: 107px;
+		display: grid;
+		grid-template-columns: 416px 416px 416px;
+		grid-template-rows: 560px;
+		column-gap: 16px;
+
+		&-image-one {
+			background-image: url(../images/sellers-image-one.png);
+		}
+
+		&-image-two {
+			background-image: url(../images/sellers-image-two.png);
+		}
+
+		&-image-three {
+			background-image: url(../images/sellers-image-three.png);
+
+		}
+
+		&-image-tittle {
+			display: flex;
+			justify-content: end;
+			font-style: italic;
+			font-family: 'Futura Md BT';
+			font-weight: 700;
+			font-size: 64px;
+			line-height: 64px;
+			margin-top: 490px;
+			margin-right: 20px;
+			-webkit-text-fill-color: transparent;
+			-webkit-text-stroke: 1px white;
+
+
+		}
+	}
+}
